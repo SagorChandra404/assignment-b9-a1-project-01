@@ -1,101 +1,147 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-img{
-    vertical-align: middle;
+img {
+  vertical-align: middle;
 }
 
-
-:root{
-    --Merriweather : "Merriweather", serif;
-    --Inter : "Inter", sans-serif;
+:root {
+  --Merriweather: "Merriweather", serif;
+  --Inter: "Inter", sans-serif;
 }
 
-
-.container{
-    width: 1320px;
-    margin: 0 auto;
+.container {
+  width: 1320px;
+  margin: 0 auto;
 }
-
 
 /* banner_part css */
 
-#hero-scetion{
-    padding: 50px 0 120px 0;
+#hero-scetion {
+  padding: 50px 0 120px 0;
 }
 
-.banner{
-    padding: 177px 344px;
-    background-image: url('resources/BannerImage.png'), linear-gradient(rgba(7, 2, 17, 1),rgba(0, 0, 0, 0));
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    
-    
+.banner {
+  padding: 177px 344px;
+  background-image: url("resources/BannerImage.png"),
+    linear-gradient(rgba(7, 2, 17, 1), rgba(0, 0, 0, 0));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
 }
 
-
-
-.banner-text h3{
-    text-align: center;
-    color: #ffff;
-    font-family: var(--Merriweather);
-    font-size: 32px;
-    font-weight: 400;
+.banner-text h3 {
+  text-align: center;
+  color: #ffff;
+  font-family: var(--Merriweather);
+  font-size: 32px;
+  font-weight: 400;
 }
 
-.banner-text h1{
-    text-align: center;
-    color: #ffff;
-    font-family: var(--Merriweather);
-    font-size: 72px;
-    font-weight: 700;
-    padding-top: 16px;
+.banner-text h1 {
+  text-align: center;
+  color: #ffff;
+  font-family: var(--Merriweather);
+  font-size: 72px;
+  font-weight: 700;
+  padding-top: 16px;
 }
 /* banner_part css */
 
-
 /* deals_part css */
 
-.deals_container{
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
+.deals_container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
-.deals_container h1{
-    color: #FF0000;
-    font-family: var(--Inter);
-    font-weight: bold;
-    font-size: 88px;
-    
-}
-
-.deals_container p{
-    color: #FF0000;
-    font-size: 24px;
-    font-family: var(--Inter);
-    font-weight: 400;
-    padding: 48px 0 16px 0;
+.deals_container h1 {
+  color: #ff0000;
+  font-family: var(--Inter);
+  font-weight: bold;
+  font-size: 88px;
 }
 
-.deals_container h3{
-    color: #070211;
-    font-family: var(--Inter);
-    font-size: 48px;
-    font-weight: bold;
-    padding-bottom: 48px;
+.deals_container p {
+  color: #ff0000;
+  font-size: 24px;
+  font-family: var(--Inter);
+  font-weight: 400;
+  padding: 48px 0 16px 0;
+}
+
+.deals_container h3 {
+  color: #070211;
+  font-family: var(--Inter);
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 48px;
 }
 /* deals_part css */
-
-
 
 /* party-part css */
+#party_part {
+  padding: 120px 0;
+}
 
+.banner_two {
+  background-image: url("resources/Vectorrr.png"),
+    linear-gradient(90deg, rgba(7, 2, 17, 1), rgba(0, 0, 0, 0));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 126px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_two_text {
+  text-align: left;
+}
+
+.banner_two_text h1 {
+  color: #ffffff;
+  font-family: var(--Merriweather);
+  font-size: 64px;
+  font-weight: bold;
+  width: 642px;
+}
+
+.banner_two_text p {
+  padding: 24px 0 48px 0;
+  width: 690px;
+  font-family: var(--Inter);
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.banner_two_text button {
+  background: none;
+  border: none;
+  margin-left: 32px;
+}
+.banner_two_text button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: var(--Inter);
+  font-weight: bold;
+}
+
+
+.banner_two_text button:hover{
+    padding: 16px 32px;
+    color: #ffffff;
+    width: 160px;
+    background: #FF0000;
+}
 /* party-part css */

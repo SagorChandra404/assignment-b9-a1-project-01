@@ -22,6 +22,9 @@ img{
     margin: 0 auto;
 }
 
+
+/* banner_part css */
+
 #hero-scetion{
     padding: 50px 0 120px 0;
 }
@@ -56,3 +59,43 @@ img{
     font-weight: 700;
     padding-top: 16px;
 }
+/* banner_part css */
+
+
+/* deals_part css */
+
+.deals_container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.deals_container h1{
+    color: #FF0000;
+    font-family: var(--Inter);
+    font-weight: bold;
+    font-size: 88px;
+    
+}
+
+.deals_container p{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: var(--Inter);
+    font-weight: 400;
+    padding: 48px 0 16px 0;
+}
+
+.deals_container h3{
+    color: #070211;
+    font-family: var(--Inter);
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+/* deals_part css */
+
+
+
+/* party-part css */
+
+/* party-part css */

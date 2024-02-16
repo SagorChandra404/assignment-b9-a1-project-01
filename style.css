@@ -370,3 +370,76 @@ img {
   transform: translateY(-20px);
 }
 /* portfolio_part css */
+
+/* news_latter_part css */
+#news_latter_part {
+  padding: 120px 0;
+}
+
+.news_latter_banner {
+  border-radius: 16px;
+  background: #ff00000d;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news_latter_banner h2 {
+  padding: 40px 0 22px 0;
+  color: #070211;
+  font-family: var(--Merriweather);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.news_latter_banner p {
+  color: #07021199;
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  width: 890px;
+  padding-bottom: 48px;
+}
+
+.input_entry {
+  display: flex;
+  gap: 0;
+}
+
+.email_form {
+  width: 438px;
+  border: none;
+  padding: 25px 0;
+  border-radius: 50px 0 0 50px;
+  padding-left: 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: var(--Inter);
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+form button {
+  border: none;
+  background-color: #ff0000;
+  border-radius: 0 50px 50px 0;
+}
+
+form button a {
+  padding: 24px 56px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+/* news_latter_part css */

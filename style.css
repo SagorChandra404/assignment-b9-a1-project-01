@@ -199,31 +199,30 @@ img {
 /* schedule_part css */
 
 /* offer_part css */
-#offer_part{
+#offer_part {
   padding: 128px 0;
 }
 
-.best_deals_banner{
+.best_deals_banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.left_text{
+.left_text {
   width: 393px;
 }
 
-.left_text h4{
+.left_text h4 {
   color: #ff0000;
-font-family: var(--Inter);
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-padding-bottom: 16px;
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  padding-bottom: 16px;
 }
 
-
-.left_text h2{
+.left_text h2 {
   color: #070211;
   font-family: var(--Merriweather);
   font-size: 48px;
@@ -233,7 +232,7 @@ padding-bottom: 16px;
   padding-bottom: 16px;
 }
 
-.left_text p{
+.left_text p {
   color: #07021199;
   font-family: Inter;
   font-size: 20px;
@@ -252,11 +251,11 @@ padding-bottom: 16px;
   justify-content: center;
 }
 
-.right_text{
+.right_text {
   width: 276px;
 }
 
-.right_text h3{
+.right_text h3 {
   color: #ff0000;
   font-family: var(--Inter);
   font-size: 48px;
@@ -266,7 +265,7 @@ padding-bottom: 16px;
   padding-bottom: 16px;
 }
 
-.right_text p{
+.right_text p {
   color: #07021199;
   font-family: var(--Inter);
   font-size: 20px;
@@ -276,3 +275,43 @@ padding-bottom: 16px;
   padding-bottom: 43px;
 }
 /* offer_part css */
+
+/* holiday_part css */
+.holyDay_text {
+  text-align: center;
+}
+
+.holyDay_text h4 {
+  color: #070211;
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+
+.holyDay_text h1{
+  font-family: var(--Merriweather);
+  font-size: 72px;
+  font-weight: 900;
+  color: #070211;
+}
+
+.holyDay_text h1 .holiday_red{
+  color: #ff0000;
+}
+
+
+.holyDay_text p{
+  text-align: center;
+  width: 1068px;
+  margin: 0 auto;
+  color: #07021199;
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 28px;
+}
+
+/* holiday_part css */

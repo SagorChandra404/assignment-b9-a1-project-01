@@ -101,6 +101,8 @@ img {
   padding: 126px;
   display: flex;
   justify-content: space-between;
+
+  align-items: center;
 }
 
 .banner_two_text {
@@ -127,8 +129,10 @@ img {
 .banner_two_text button {
   background: none;
   border: none;
-  margin-leftc: 32px;
+  margin-left: 32px;
+  transition: all linear 0.5s;
 }
+
 .banner_two_text button a {
   text-decoration: none;
   color: #ffffff;
@@ -137,11 +141,138 @@ img {
   font-weight: bold;
 }
 
-
-.banner_two_text button:hover{
-    padding: 16px 32px;
-    color: #ffffff;
-    width: 160px;
-    background: #FF0000;
+.banner_two_text button:hover {
+  padding: 16px 32px;
+  color: #ffffff;
+  width: 160px;
+  background: #ff0000;
+  border-radius: 10px;
 }
 /* party-part css */
+
+/* schedule_part css */
+#schedule_part {
+}
+
+.schedule_banner {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 380px;
+  border-radius: 16px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.schedule_banner h3 {
+  font-family: var(--Inter);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.schedule_banner h3 .mark_color {
+  color: rgb(255, 0, 0);
+}
+.btn_two {
+  padding-top: 40px;
+}
+
+.btn_two button {
+  padding: 16px 32px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn_two button a {
+  color: #ffffff;
+  background-color: #ff0000;
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* schedule_part css */
+
+/* offer_part css */
+#offer_part{
+  padding: 128px 0;
+}
+
+.best_deals_banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_text{
+  width: 393px;
+}
+
+.left_text h4{
+  color: #ff0000;
+font-family: var(--Inter);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+padding-bottom: 16px;
+}
+
+
+.left_text h2{
+  color: #070211;
+  font-family: var(--Merriweather);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+  padding-bottom: 16px;
+}
+
+.left_text p{
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.center_img {
+  width: 463px;
+  height: 463px;
+  border-radius: 50%;
+  border: 15px solid #ff0000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right_text{
+  width: 276px;
+}
+
+.right_text h3{
+  color: #ff0000;
+  font-family: var(--Inter);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+.right_text p{
+  color: #07021199;
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 43px;
+}
+/* offer_part css */

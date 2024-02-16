@@ -422,7 +422,6 @@ img {
   font-family: var(--Inter);
   font-size: 18px;
   font-weight: 400;
-
 }
 
 form button {
@@ -443,3 +442,66 @@ form button a {
 }
 
 /* news_latter_part css */
+
+/* footer_part css */
+#foot_end {
+  background-color: #070211;
+  padding: 120px 0;
+}
+
+.contact_part {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 500px;
+  padding-bottom: 50px;
+}
+.contact_left p {
+  color: #ffffff;
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.contact_right a {
+  display: block;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+
+  color: #ffffff;
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#foot_end hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social_part {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.copyright_part {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright_part p{
+  color: #ffffff;
+font-family: var(--Inter);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+
+}
+
+/* footer_part css */

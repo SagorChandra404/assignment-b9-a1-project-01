@@ -277,7 +277,7 @@ img {
 /* offer_part css */
 
 /* holiday_part css */
-/* .holyDay_text {
+.holyDay_text {
   text-align: center;
 }
 
@@ -314,9 +314,39 @@ img {
 
 .holydayBanner {
   padding-top: 64px;
-} */
+  padding-bottom: 120px;
+}
 
-/* holiday_part css */
+.bottom_holiday {
+  background: #ff0000;
+  height: 230px;
+  width: 100%;
+  border-radius: 16px 0 16px 16px;
+}
+.Top_holiday {
+  display: flex;
+  justify-content: right;
+}
+
+.holiday_right_img{
+  position: relative;
+}
+.holiday_off{
+  position: absolute;
+  top: -719%;
+  right: 65%;
+  
+}
+
+.bottom_holiday {
+  position: relative;
+}
+.gift_box {
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+}
+/* holiday_part css
 
 /* portfolio_part css */
 .portfolio_header {
@@ -495,13 +525,12 @@ form button a {
   justify-content: space-between;
 }
 
-.copyright_part p{
+.copyright_part p {
   color: #ffffff;
-font-family: var(--Inter);
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
 }
 
 /* footer_part css */
